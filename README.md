@@ -14,10 +14,12 @@ See http://forum.xda-developers.com/showpost.php?p=24168019&postcount=21
 
 
 Building the kernel:
-Using the Android NDK and assuming a linux-x86_64 Android NDK is installed in /opt/android-ndk:
+Assuming a linux-x86_64 Android NDK is installed in /opt/android-ndk:
 
+```
 cp ../build/uImage.config src/.config
 make ARCH=arm oldconfig
 make -j6 ARCH=arm CROSS_COMPILE=/opt/android-ndk/toolchains/arm-linux-androideabi-4.7/prebuilt/linux-x86_64/bin/arm-linux-androideabi- uImage
 cp arch/arm/boot/uImage ../build
+```
 
