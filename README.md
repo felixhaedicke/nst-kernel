@@ -5,8 +5,8 @@ Linux Kernel for the Nook Simple Touch with fixed USB host and fast display mode
 
 
 Currently, this contains a kernel based on the sources released by Barnes & Noble: http://images.barnesandnoble.com/PResources/download/Nook/source-code/nook2_1-1-5.tgz
-+ the changes created / collected by staylo: https://github.com/staylo/nook2
-+ this patch: ftp://ftp.cs.huji.ac.il/mirror/linux/kernel/linux/kernel/people/gregkh/usb/2.6/2.6.30-rc2/usb-musb_host-fix-ep0-fifo-flushing.patch
++ and the changes created / collected by staylo: https://github.com/staylo/nook2
++ and this patch: ftp://ftp.cs.huji.ac.il/mirror/linux/kernel/linux/kernel/people/gregkh/usb/2.6/2.6.30-rc2/usb-musb_host-fix-ep0-fifo-flushing.patch
 
 
 Installation:
